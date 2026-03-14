@@ -1,0 +1,10 @@
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import EmotionDetection
+>>> result = EmotionDetection.emotion_detector("I am so glad the package is working!")
+>>> print(result)
+{'anger': 0.027005468, 'disgust': 0.0060338727, 'fear': 0.0060969163, 'joy': 0.93783677, 'sadness': 0.07036145, 'dominant_emotion': 'joy'}
+>>> import EmotionDetection
+>>> result = EmotionDetection.emotion_detector("I hate working long hours!")
+>>> print(result)
+{'anger': 0.6643454, 'disgust': 0.035160646, 'fear': 0.056345873, 'joy': 0.008952232, 'sadness': 0.15831673, 'dominant_emotion': 'anger'}
